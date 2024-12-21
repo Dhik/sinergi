@@ -19,7 +19,7 @@
 
     {{-- Brand text --}}
     <span class="brand-text font-weight-light ml-4 {{ config('adminlte.classes_brand_text') }}">
-        Sinergi
+        Sinergi Group
     </span>
 
 </a>
