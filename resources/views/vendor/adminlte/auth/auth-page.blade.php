@@ -21,7 +21,7 @@
         {{-- Logo --}}
         <div class="{{ $auth_type ?? 'login' }}-logo">
             <a href="{{ $dashboard_url }}">
-
+<!-- 
                 {{-- Logo Image --}}
                 @if (config('adminlte.auth_logo.enabled', false))
                     <img src="{{ asset(config('adminlte.auth_logo.img.path')) }}"
@@ -38,10 +38,10 @@
                 @else
                     <img src="{{ asset(config('adminlte.logo_img')) }}"
                          alt="{{ config('adminlte.logo_img_alt') }}" height="50">
-                @endif
+                @endif -->
 
                 {{-- Logo Label --}}
-                {!! config('adminlte.logo', '<b>Admin</b>LTE') !!}
+                Sinergi Group
 
             </a>
         </div>
